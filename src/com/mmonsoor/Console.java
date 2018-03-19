@@ -1,4 +1,4 @@
-package src.com.mmonsoor;
+package com.mmonsoor;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,6 +29,7 @@ public class Console {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				
 				
 			}
 			
