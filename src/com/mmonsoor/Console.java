@@ -1,4 +1,4 @@
-package com.mmonsoor;
+package src.com.mmonsoor;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +35,7 @@ public class Console {
 		}
 		else {
 			System.out.println("L'extenion n'est pas correcte.");
+			
 		}
 		
 		return null;
