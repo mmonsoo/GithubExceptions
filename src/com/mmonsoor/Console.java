@@ -22,13 +22,14 @@ public class Console {
 		// On teste si l'extension est égale à tmp
 		if(extension.equals("tmp")) {
 			System.out.println("L'extenion est correcte.");
-			
+	
 			try {
 				//On va créer un fichier temporaire
 				File.createTempFile(fileName, extension);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				
 			}
 			
 		}
